@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  HelloWord
+//  NextTarget2
 //
 //  Created by 문지원 on 28/12/2019.
 //  Copyright © 2019 문지원. All rights reserved.
@@ -9,6 +9,7 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    std::cout << "Hello, World!\n";
+    // insert code here...
+    std::cout << "Hello, Next!\n";
     return 0;
 }
