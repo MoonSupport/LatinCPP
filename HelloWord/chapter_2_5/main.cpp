@@ -9,6 +9,8 @@
 #include <iostream>
 #include <iomanip>
 #include <limits>
+#include <arpa/inet.h>
+#include <sys/socket.h>
 
 int main(int argc, const char * argv[]) {
     using namespace std;
@@ -43,6 +45,6 @@ int main(int argc, const char * argv[]) {
     cout << numeric_limits<float>::lowest() << endl;
     cout << numeric_limits<double>::lowest() << endl;
     cout << numeric_limits<long double>::lowest() << endl<<endl;
-        
+    
     return 0;
 }
