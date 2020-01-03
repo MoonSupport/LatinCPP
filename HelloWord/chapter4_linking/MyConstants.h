@@ -10,7 +10,7 @@
 #define MyConstants_h
 
 namespace Constants {
-double pi(3.14);
+    extern const double pi;
 }
 
 #endif /* MyConstants_h */
