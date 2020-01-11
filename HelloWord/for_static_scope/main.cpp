@@ -9,7 +9,8 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    using namespace std;
+    for (unsigned int i = 9; i >= 0; i--)
+        cout << i << endl;
     return 0;
 }
