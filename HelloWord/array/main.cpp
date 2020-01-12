@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include <array>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    using namespace std;
+    
+    array<int, 5> arr = {1,2,3,4,5};
+    
+    
+    
+//    cout << arr.at(10) << endl; // arr[10] 번째를 체크해서 사이즈나 값에 문제가 있을 시에, Exception
+    
+    
     return 0;
 }
