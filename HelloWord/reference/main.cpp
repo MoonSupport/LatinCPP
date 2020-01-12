@@ -9,7 +9,24 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    using namespace std;
+    
+    int value = 5;
+    
+    int &ref = value;
+    
+    cout << ref << endl;
+
+    cout << &ref << endl;
+    cout << &value << endl;
+    
+    
+    ref = 10;
+    
+    cout << ref << endl;
+    cout << value << endl;
+
+
     return 0;
 }
