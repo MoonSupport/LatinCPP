@@ -8,8 +8,23 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    int x = 5;
+    
+    cout << x << endl;
+    cout << &x << endl;
+
+    
+    // de-reference operator (*)
+    
+    int* xP = &x;
+    
+    cout << xP << endl;
+    cout << &xP << endl;
+    cout << *xP << endl;
+
     return 0;
 }
