@@ -28,7 +28,7 @@ void adressFunction(int *a) {
     *a = *a + 1;
     
     
-    cout << a << endl; // a는 뭔가 변화 한다는 것을 유추
+    cout << a << endl; // refernce와 동일하지만 결국 포인터라는 값에 의한 전달(복사)
 
 }
 
