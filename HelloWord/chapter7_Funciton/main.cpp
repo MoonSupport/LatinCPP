@@ -23,6 +23,15 @@ void referenceFunction(int &a) {
 
 }
 
+void adressFunction(int *a) {
+    
+    *a = *a + 1;
+    
+    
+    cout << a << endl; // a는 뭔가 변화 한다는 것을 유추
+
+}
+
 int main(int argc, const char * argv[]) {
     int value = 1;
     
@@ -36,6 +45,17 @@ int main(int argc, const char * argv[]) {
     referenceFunction(value);
     
     cout << value << endl;
+    
+    adressFunction(&value);
+    
+    cout << value << endl;
+    
+    int* value2 = &value;
+    
+    adressFunction(value2);
+    
+    cout << *value2 << endl;
+
     
     return 0;
 }
