@@ -32,5 +32,10 @@ class Something{
 int main(int argc, const char * argv[]) {
     Something some;
     some.print();
+    cout << &some << endl;
+    
+    Something* dynamicSome = new Something();
+//    cout >> dynamicSome << endl;
+    some.print();
     return 0;
 }
