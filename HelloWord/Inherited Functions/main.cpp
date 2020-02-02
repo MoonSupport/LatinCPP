@@ -24,6 +24,9 @@ public:
 };
 
 class Derived : public Base {
+private :
+        using Base::Print;
+
 public:
     double m_d;
 
@@ -42,6 +45,7 @@ public:
         out << "Derived opertator";
         return out;
     }
+        
 };
 
 int main()
@@ -51,6 +55,7 @@ int main()
 
     b.Print();
     d.Print();
+    d.Base::Print();
     cout << b << endl;
     cout << d << endl;
     return 0;
