@@ -43,6 +43,8 @@ int main()
     //포인터도 사용가능
     //가장 상위클래스에 virtual이 선언되어 있으면 모두 영향 받는다.
     A &ref = c;
+    A& ref2 = a;
+    ref2.print();
     ref.print();
 
     return 0;
