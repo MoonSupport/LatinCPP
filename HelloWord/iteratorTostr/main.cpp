@@ -9,7 +9,7 @@ int main()
     string str1 = "BlockDMask";
     string str2 = "BlogBlogBlogBlog";
  
-    cout << "str1 : " << str1 << endl;
+    cout << "str1 : " << str1 
     cout << "str2 : " << str2 << endl;
     cout << endl;
     
